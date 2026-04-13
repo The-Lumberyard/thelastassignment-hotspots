@@ -11,14 +11,59 @@
       background: #000;
     }
 
-    img {
+    .flyer-wrap {
+      position: relative;
+      width: 100%;
+      line-height: 0;
+    }
+
+    .flyer-wrap img {
       display: block;
       width: 100%;
       height: auto;
     }
+
+    .hotspot {
+      position: absolute;
+      display: block;
+      text-decoration: none;
+      background: rgba(255,0,0,0.25);
+    }
+
+    .hotspot-a {
+      left: 26.8%;
+      top: 80.8%;
+      width: 45.5%;
+      height: 6.2%;
+    }
+
+    .hotspot-b {
+      left: 47.2%;
+      top: 46.8%;
+      width: 6.5%;
+      height: 5.5%;
+      background: rgba(0,255,0,0.25);
+      border-radius: 50%;
+    }
   </style>
 </head>
 <body>
-  <img src="flyer.png" alt="The Last Assignment flyer" />
+  <div class="flyer-wrap">
+    <img src="flyer.png" alt="The Last Assignment flyer" />
+
+    <a
+      class="hotspot hotspot-a"
+      href="https://www.thelastassignment.com/60-second-clue-a"
+      aria-label="60 second clue A"
+      title="60 second clue A"
+    ></a>
+
+    <a
+      class="hotspot hotspot-b"
+      href="https://www.thelastassignment.com/60-second-clue-b"
+      aria-label="60 second clue B"
+      title="60 second clue B"
+    ></a>
+  </div>
 </body>
 </html>
