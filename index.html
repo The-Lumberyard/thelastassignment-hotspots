@@ -11,9 +11,16 @@
       background: #000;
     }
 
+    body {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
     .flyer-wrap {
       position: relative;
       width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
       line-height: 0;
     }
 
@@ -23,33 +30,31 @@
       height: auto;
     }
 
-.hotspot {
-  position: absolute;
-  display: block;
-  text-decoration: none;
-  z-index: 10;
-  cursor: pointer;
-  box-sizing: border-box;
-}
+    .hotspot {
+      position: absolute;
+      display: block;
+      text-decoration: none;
+      z-index: 10;
+      cursor: pointer;
+      box-sizing: border-box;
+      background: rgba(255, 0, 0, 0);
+      border: none;
+    }
 
-.hotspot-a {
-  left: 1.8%;
-  top: 1.8%;
-  width: 1.5%;
-  height: 1.2%;
-  background: rgba(255,0,0,0.35);
-  border: 2px solid rgba(255,255,255,0.8);
-}
+    .hotspot-a {
+      left: 47.2%;
+      top: 85.4%;
+      width: 13.5%;
+      height: 3.2%;
+    }
 
-.hotspot-b {
-  left: 44.2%;
-  top: 44.0%;
-  width: 3.8%;
-  height: 4.2%;
-  background: rgba(255,255,0,0.35);
-  border: 2px solid rgba(255,255,255,0.8);
-  border-radius: 50%;
-}
+    .hotspot-b {
+      left: 44.2%;
+      top: 44.2%;
+      width: 3.8%;
+      height: 4.2%;
+      border-radius: 50%;
+    }
   </style>
 </head>
 <body>
