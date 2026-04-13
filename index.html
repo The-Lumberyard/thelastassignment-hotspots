@@ -27,7 +27,9 @@
       position: absolute;
       display: block;
       text-decoration: none;
-      background: rgba(255,0,0,0.25);
+      z-index: 10;
+      cursor: pointer;
+      box-sizing: border-box;
     }
 
     .hotspot-a {
@@ -35,6 +37,8 @@
       top: 80.8%;
       width: 45.5%;
       height: 6.2%;
+      background: rgba(255,0,0,0.35);
+      border: 2px solid rgba(255,255,255,0.8);
     }
 
     .hotspot-b {
@@ -42,7 +46,8 @@
       top: 46.8%;
       width: 6.5%;
       height: 5.5%;
-      background: rgba(0,255,0,0.25);
+      background: rgba(0,255,0,0.35);
+      border: 2px solid rgba(255,255,255,0.8);
       border-radius: 50%;
     }
   </style>
